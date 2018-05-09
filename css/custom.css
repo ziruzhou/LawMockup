@@ -1,0 +1,27 @@
+.main-content
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer-main
+{
+	background-color: #4a4c4f;
+	color: white;
+}
+
+.footer-main a
+{
+	color: white;
+}
+
+.footer-copyright
+{
+	text-align: center;
+	color: rgba(255,255,255,.6);
+}
+
+.footer-copyright a
+{
+	color: white;
+}
