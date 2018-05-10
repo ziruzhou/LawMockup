@@ -1,3 +1,28 @@
+a
+{
+	color: grey !important;
+}
+
+a:hover
+{
+	color: #dbc359 !important;
+	text-decoration: underline !important;
+}
+
+button
+{
+	color: grey !important;
+	text-decoration: underline;
+	font-weight: bold !important;
+}
+
+button:hover
+{
+	color: #dbc359 !important;
+	text-decoration: underline;
+	font-weight: bold !important;
+}
+
 nav
 {
 	border-bottom: 1px solid black;
@@ -8,10 +33,22 @@ nav  ul > li > a
 	font-weight: bold;
 }
 
+.nav-search-custom
+{
+	position: relative;
+	top: 15px;
+	width: 100% !important;
+}
+
 .main-content
 {
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.tab-pane-custom
+{
+	margin: 10px 20px;
 }
 
 .footer-main
