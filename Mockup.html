@@ -28,6 +28,30 @@
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
 						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Abuse and Family Violence</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Question</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Criminal Law</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Question</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Employement and Work</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Question</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Family Law</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#">Question</a>
@@ -58,10 +82,14 @@
 		</head>
 	
 		<div class="container-fluid main-content">
+	
+			<div id="test" class="offset-lg-1 col-lg-10 offset-md-1 col-md-10 sticky-top"><h3>What am I suposed to do if someone does this and I do that?</h3></div>
+
 			<div class="row">
 				<div class="offset-lg-1 col-lg-10 offset-md-1 col-md-10">
-					<h3>What am I suposed to do if someone does this and I do that?</h3>
-					<p>Suspendisse vulputate urna sit amet justo pharetra faucibus. Fusce scelerisque, ante tempus blandit feugiat, orci arcu condimentum ligula, et sollicitudin sapien magna sit amet ante. Phasellus imperdiet ultrices interdum. Etiam blandit sapien in lectus egestas, ut tempor nisl pharetra. Integer at justo ut eros lobortis cursus. Donec congue magna pellentesque ornare laoreet.</p>
+					<p class="sticky-title-after">Suspendisse vulputate urna sit amet justo pharetra faucibus. Fusce scelerisque, ante tempus blandit feugiat, orci arcu condimentum ligula, et sollicitudin sapien magna sit amet ante. Phasellus imperdiet ultrices interdum. </p>
+					<p class="more-content" id="hidden-content0">Etiam blandit sapien in lectus egestas, ut tempor nisl pharetra. Integer at justo ut eros lobortis cursus. Donec congue magna pellentesque ornare laoreet.</p>
+					<a href="#" id="hidden-content0-trigger" onclick="showhide('hidden-content0')">Show More</a>				
 				</div>
 			</div>
 			
@@ -80,24 +108,112 @@
 					
 					<div class="tab-content">
 					  <div class="tab-pane fade show active tab-pane-custom" id="step1" role="tabpanel">
-						<h6>Step 1</h6><br/>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis venenatis orci. Sed ornare, lacus ultricies ullamcorper posuere, libero erat eleifend urna, non eleifend quam ex sit amet turpis. Pellentesque ut pretium turpis. Ut tristique metus et sapien mollis, ut sodales leo aliquet. Nulla dignissim erat vel lacinia consectetur. Fusce a pellentesque quam. Donec ornare molestie gravida. Suspendisse condimentum sem sed faucibus mattis. Proin tristique quis nunc non aliquam. Mauris eget purus non nunc dapibus mollis. Donec congue mauris at vestibulum vehicula. Aenean ut gravida est. Morbi est felis, consectetur a porta consequat, eleifend ac ligula.
+						<h6>Step 1 Title</h6><br/>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis venenatis orci. Sed ornare, lacus ultricies ullamcorper posuere, libero erat eleifend urna, non eleifend quam ex sit amet turpis. Pellentesque ut pretium turpis. Ut tristique metus et sapien mollis, ut sodales leo aliquet. Nulla dignissim erat vel lacinia consectetur.</p>
+						
+						<p class="more-content" id="hidden-content1">Fusce a pellentesque quam. Donec ornare molestie gravida. Suspendisse condimentum sem sed faucibus mattis. Proin tristique quis nunc non aliquam. Mauris eget purus non nunc dapibus mollis. Donec congue mauris at vestibulum vehicula. Aenean ut gravida est. Morbi est felis, consectetur a porta consequat, eleifend ac ligula.</p>
+						<a href="#" id="hidden-content1-trigger" onclick="showhide('hidden-content1')">Show More</a>
 					  </div>
 					  <div class="tab-pane fade tab-pane-custom" id="step2" role="tabpanel">
-						<h6>Step 2</h6><br/>
-						Aenean non magna a urna aliquam convallis id nec nunc. Phasellus ex nisi, placerat varius lorem at, blandit ultricies sapien. Quisque sit amet nibh neque. Cras hendrerit nunc vitae urna iaculis iaculis. Curabitur eros magna, bibendum et eleifend quis, mollis vel odio. Mauris nec ornare ante. Nam fermentum leo vitae erat tempus, vitae bibendum dui aliquam. In hac habitasse platea dictumst. Nullam turpis libero, convallis in enim at, varius faucibus nunc. Cras malesuada aliquet lacus, dignissim facilisis nunc consectetur sed.
+						<h6>Step 2 Title</h6><br/>
+						<p>Aenean non magna a urna aliquam convallis id nec nunc. Phasellus ex nisi, placerat varius lorem at, blandit ultricies sapien. Quisque sit amet nibh neque. Cras hendrerit nunc vitae urna iaculis iaculis. Curabitur eros magna, bibendum et eleifend quis, mollis vel odio. Mauris nec ornare ante. Nam fermentum leo vitae erat tempus, vitae bibendum dui aliquam.</p>
+						
+						<p class="more-content" id="hidden-content2">In hac habitasse platea dictumst. Nullam turpis libero, convallis in enim at, varius faucibus nunc. Cras malesuada aliquet lacus, dignissim facilisis nunc consectetur sed.</p>
+						<a href="#" id="hidden-content2-trigger" onclick="showhide('hidden-content2')">Show More</a>
+						<br/>
+						<br/>
+						<div class="accordion" id="accordionExample">
+						  <div class="card">
+							<div class="card-header" id="headingOne">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								  Step 2 Substep 1
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+							  <div class="card-body">
+								substep 1 actions:
+								<br/>
+								Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							  </div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="headingTwo">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								  Step 2 Substep 2
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							  <div class="card-body">
+								substep 2 actions:
+								<br/>
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							  </div>
+							</div>
+						  </div>
+						</div>
 					  </div>
 					  <div class="tab-pane fade tab-pane-custom" id="step3" role="tabpanel">
-						<h6>Step 3</h6><br/>
-						Sed sed scelerisque massa. Ut suscipit tempus purus in fermentum. Integer blandit, nunc eget elementum laoreet, leo libero venenatis dui, non fermentum nibh leo nec lorem. Maecenas faucibus magna quis erat iaculis, non ullamcorper turpis congue. Praesent sed pellentesque ligula, ut rhoncus mauris. Pellentesque sed lorem suscipit, mattis risus sit amet, luctus neque. Praesent ultricies, odio eu dapibus egestas, quam dolor consequat sapien, non tempus dolor nisi a turpis. 
+						<h6>Step 3 Title</h6><br/>
+						<p>Sed sed scelerisque massa. </p>
+						
+						<p class="more-content" id="hidden-content3">Ut suscipit tempus purus in fermentum. Integer blandit, nunc eget elementum laoreet, leo libero venenatis dui, non fermentum nibh leo nec lorem. Maecenas faucibus magna quis erat iaculis, non ullamcorper turpis congue. Praesent sed pellentesque ligula, ut rhoncus mauris. Pellentesque sed lorem suscipit, mattis risus sit amet, luctus neque. Praesent ultricies, odio eu dapibus egestas, quam dolor consequat sapien, non tempus dolor nisi a turpis.</p>
+						<a href="#" id="hidden-content3-trigger" onclick="showhide('hidden-content3')">Show More</a>
 					  </div>
 					  <div class="tab-pane fade tab-pane-custom" id="step4" role="tabpanel">
-						<h6>Step 4</h6><br/>
-						In hac habitasse platea dictumst. Donec rhoncus purus ut orci sollicitudin congue. Suspendisse potenti. Etiam mattis gravida elit, at ultrices mi posuere sit amet. Integer congue arcu massa, in viverra orci bibendum eget. Donec nec mattis urna. Suspendisse sagittis diam a nunc tempor consequat. Cras elementum velit lectus.
+						<h6>Step 4 Title</h6><br/>
+						<p>In hac habitasse platea dictumst. Donec rhoncus purus ut orci sollicitudin congue. </p>
+						
+						<p class="more-content" id="hidden-content4">Suspendisse potenti. Etiam mattis gravida elit, at ultrices mi posuere sit amet. Integer congue arcu massa, in viverra orci bibendum eget. Donec nec mattis urna. Suspendisse sagittis diam a nunc tempor consequat. Cras elementum velit lectus.</p>
+						<a href="#" id="hidden-content4-trigger" onclick="showhide('hidden-content4')">Show More</a>
+						<br/>
+						<br/>
+						<div class="accordion" id="accordionExample">
+						  <div class="card">
+							<div class="card-header" id="headingOne">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								  Step 4 Substep 1
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+							  <div class="card-body">
+								substep 1 actions:
+								<br/>
+								Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							  </div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="headingTwo">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								  Step 4 Substep 2
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							  <div class="card-body">
+								substep 2 actions:
+								<br/>
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							  </div>
+							</div>
+						  </div>
+						</div>
+						
 					  </div>
 					  <div class="tab-pane fade tab-pane-custom" id="step5" role="tabpanel">
-						<h6>Step 5</h6><br/>
-						Etiam scelerisque neque id nulla egestas, eu iaculis ligula facilisis. Integer at magna ac orci sodales vestibulum. Pellentesque nunc lacus, bibendum in dui ac, vestibulum dignissim urna. Vestibulum placerat sem vulputate, ultrices tortor quis, accumsan diam. Nulla ornare commodo tellus ut faucibus. Sed quis elit a nulla pellentesque tempor. Suspendisse potenti. Sed sagittis enim a nibh pulvinar fermentum. 
+						<h6>Step 5 Title</h6><br/>
+						<p>Etiam scelerisque neque id nulla egestas, eu iaculis ligula facilisis. Integer at magna ac orci sodales vestibulum. Pellentesque nunc lacus, bibendum in dui ac, vestibulum dignissim urna. Vestibulum placerat sem vulputate, ultrices tortor quis, accumsan diam. Nulla ornare commodo tellus ut faucibus. </p>
+						
+						<p class="more-content" id="hidden-content5">Sed quis elit a nulla pellentesque tempor. Suspendisse potenti. Sed sagittis enim a nibh pulvinar fermentum. </p>
+						<a href="#" id="hidden-content5-trigger" onclick="showhide('hidden-content5')">Show More</a>
 					  </div>
 					</div>
 				</div>
@@ -112,13 +228,13 @@
 					  <div class="card">
 						<div class="card-header" id="headingOne">
 						  <h5 class="mb-0">
-							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 							  Related Questions:
 							</button>
 						  </h5>
 						</div>
 
-						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 						  <div class="card-body">
 								<ul>
 									<li><a href="#">Who am I?</a></li>

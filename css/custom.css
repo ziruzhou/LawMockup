@@ -23,6 +23,9 @@ button:hover
 	font-weight: bold !important;
 }
 
+
+
+/*nav section*/
 nav
 {
 	border-bottom: 1px solid black;
@@ -40,6 +43,9 @@ nav  ul > li > a
 	width: 100% !important;
 }
 
+
+
+/*content section*/
 .main-content
 {
 	padding-top: 15px;
@@ -51,6 +57,18 @@ nav  ul > li > a
 	margin: 10px 20px;
 }
 
+#test
+{
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+
+.sticky-title-after
+{
+    padding-top:25px;
+}
+
+/*footer section*/
 .footer-main
 {
 	background-color: #4a4c4f;
